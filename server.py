@@ -35,6 +35,8 @@ def firstconnect():
                 
                 Client_socket, Client_address = server.accept()
             except Exception as e:
+                print("Connection error")
+                print(" ")
                 print(e)
 
     def send(c):
