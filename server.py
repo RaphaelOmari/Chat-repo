@@ -12,7 +12,8 @@ port_num = str("Select port number: ")
 def firstconnect():
     choice = input("Would you like to host the conncection or would you like to connect? Y or N: ")
     audience = int(print("How many people are joining: "))
-    
+    s_meetingcode = input("Please enter meeting code: ")
+
     n = audience
     choice  = choice.lower()
 
